@@ -15,7 +15,9 @@ let score = 0;
 let gameEnded = true; 
 
 
-//Questions here
+//TODO: questions and css 
+
+
 
 
 function setUpGame() {
