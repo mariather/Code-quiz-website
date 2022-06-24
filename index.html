@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="script.css" rel="stylesheet">
-    <title>Code Quiz Questionary</title>
+    <title>Code Quiz</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="./Assets/style2.css">
 </head>
-<body class="quiz">
+<body>
+    <header>
+        <button id="higherScores">View High scores</button> 
+        <p style="display: none">Time: <span id="timer">9999</span></p> 
+    </header>
+    <main> 
+        <h1 id="title">Coding Quiz Challenge</h1> 
+        <p id="instructions">Try to answer the following codeing related questions within the time limit. Keep in mind that incorrect answers will possibly penalize your score time by ten seconds</p>
+        <button id="startBtn">Start Quiz</button> 
+        <ul>
+            
+        </ul>
+       
+        <div id="submit-div"> 
 
-    <div id="startpage">
-        <button id="startbtn">Start Quiz</button>
-    </div>
-    
-     <div id="questions">
-            <button class="a">buttonA</button>
-            <button class="b">buttonB</button>
-            <button class="c">buttonC</button>
-            <button class="d">buttonD</button>
-
-    </div>
-
-    <div class="timer">
-        <time id="timer"></time>
-    </div>
-    <div id="gameover"></div>
-
-<input type="submit" id="submitScore" name="submit" value="submit" onclick="result()"
-
-
-
-    <script src="quiz.js"></script>
-    </body>
-
-    </html>
+            <p>Your final score is <span id="scoreSpan">999</span>.</p> 
+            <h1>All Done!</h1> 
+            
+            <div id="highscore-input-div"> 
+                <p>Enter Name:</p>
+                <input type="text" id="fname" name="fname" value="">
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+        <div id="display-highscore-div"> 
+            <h1>Highscores</h1>
+            <ol>
+                
+            </ol>
+            <button id="goBackBtn">Go Back</button> 
+            <button id="clearHighscoreBtn">Clear Highscores</button> 
+        </div>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
+    <script src="./Assets/script.js"></script>
+</body>
+</html>
