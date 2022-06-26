@@ -1,6 +1,6 @@
 # Short Coding Quiz
 
-
+ [Click see the website](https://mariather.github.io/Code-quiz-website/)
 
 This multiple-choice quiz will test your skills with coding!
 
