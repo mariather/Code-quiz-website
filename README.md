@@ -19,5 +19,5 @@ The user/student will be presented 5 questions with unique answer and multiple c
 
 The following animation demonstrates the application functionality:
 
-![](../Images/quiz.gif)
 
+![](Images/quiz.gif)
