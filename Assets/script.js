@@ -15,7 +15,25 @@ let score = 0;
 let gameEnded = true; 
 
 
-//TODO: questions and css 
+// Questions 
+
+let questionObj = { 
+    questions: [ 
+        "Which character always ends a statement?",
+        "What is a library?",
+        "Where is the correct place to insert a JavaScript?",
+        "Which of the following functions display “Hello, World!” on the screen in console mode?",
+        "Which of the following function of Array object joins all elements of an array into a string?",
+    ],
+    answers: [ 
+        [" ,", "correct:;", ".","}"],
+        ["A file allowing to display text on the screen;", "A file containing my program;", "correct:A source file already written containing ready-made functions;", "None of the above;"],
+        ["The <head> section", "Both the <head> section and the <body> section are correct", "correct:The <body> section", "The <footer> section"], 
+        [`correct: printf("Hello, World!")`, `print("Hello, World!");`, ` echo("Hello, World!");`, `show("Hello, World!");`],
+        ["concat()", "pop()", "join()", "map()"] 
+    ] 
+}
+
 
 
 
@@ -105,7 +123,7 @@ function createAnswerElements(currentQuestionIndex) {
     return;
 }
 
-
+//2 en una, solo se necesita esta.
 function nextQuestion() {
     questionIndexNumber++; 
     if (questionIndexNumber >= questionObj.questions.length){ 
