@@ -10,11 +10,12 @@ The user/student will be presented 5 questions with unique answer and multiple c
 
 ### Mock-Up
 
-![Starting quiz](../Images/quiz.png)
+![](Images/quiz.png)
 
-![Questions](../Images/quiz2.png)
+![](Images/quiz2.png)
 
-![End game](../Images/quiz3.png)
+![](Images/quiz3.png)
+
 
 The following animation demonstrates the application functionality:
 
