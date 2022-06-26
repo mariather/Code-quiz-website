@@ -1,6 +1,6 @@
 # Short Coding Quiz
 
-## Your Task
+
 
 This multiple-choice quiz will test your skills with coding!
 
